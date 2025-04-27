@@ -30,7 +30,7 @@ export async function POST(request: Request) {
       type: type,
       level: level,
       techstack: techstack.split(","),
-      questions: JSON.parse(questions),
+      amount: JSON.parse(questions),
       userId: userid,
       finalized: true,
       coverImage: getRandomInterviewCover(),
